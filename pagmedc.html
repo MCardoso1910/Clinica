@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+   <style>
+
+    html, body {
+        margin: 0;
+    }
+    body {
+        background-color: rgba(243, 244, 241, 0.637);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: white;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: white;
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-image: url(img/Logo.png);
+        width: 900px;
+        height:200px ;
+        background-repeat: no-repeat;
+        background-size:calc("200px");
+        background-position: center center;
+        background-color: white;
+        min-height: 150px;
+    }
+    .content {
+        background-image:url(img/img2.png) ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:right center;
+        background-color: rgba(white, white, white, 0.50);
+        background-color: white;
+        min-height: 300px;
+        padding: 20px;
+    }
+    .footer {
+        
+        background-color: white;
+        min-height: 150px;
+    }
+</style>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#">Doação de pets</a></li>
+                <li><a href="#">Conhceça nossa loja</a></li>
+                <li><a href="#">Clique aqui e agende seu horario</a></li>
+                <li><a href="#">conheça nossos veterinarios </a></li>
+                <li><a href="#">Produtos em promoção</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+            </div>
+    
+            <div class="content">
+                
+                <h2><STrong> Sobre nós
+                    </STrong></h2>
+                <p><strong>
+                     Nossa clínica veterinária é um espaço dedicado ao cuidado e bem-estar dos seus animais de estimação. Com uma equipe de profissionais qualificados e apaixonados por animais, oferecemos uma gama de serviços, como consultas, exames laboratoriais, vacinas, tratamentos especializados e cirurgias. Nosso objetivo é proporcionar um atendimento personalizado e de qualidade, sempre buscando o melhor para a saúde e felicidade dos seus pets. Além disso, contamos com um ambiente acolhedor e moderno, onde cada animal é tratado com carinho e respeito. A saúde do seu pet é nossa prioridade.
+                    </strong></p>
+                    <p><strong><i>Sobre nossas Semanas</i></strong></p>
+                    <table sumary="" border="2" width="150" collspacing="2">
+                        <tr>
+                            <td>Serviços</td>
+                            <td>segunda a sexta</td>
+                            <td>Sabados</td>
+                            <td>Feriados</td>
+                                </tr>
+                            <td>clínica geral</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                        <tr>
+                            <td>Raio X </td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                                </tr>
+                        <tr>
+                            <td>Loja</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+                                </tr>
+                        <tr>
+                            <td>Banho e tosa</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 12h</td>
+    </tr>
+                        
+                    </table>
+                
+            </div>
+    
+            <div class="footer">
+                <ul>
+                    <h3><i>Contatos</i></h3>
+                    <li><i>(11)9950-000</i></li>
+                    <li><i> 5656-0800</i></li>
+                    <li><i> Rua:LAJEADO</i></li>
+                </ul>
+                 <form>
+                    nome: <input type="text" name="name" /><br>
+                    E-mail: <input type="email" E-mail="E-mail" /><br>
+                    assunto: <input type="text" assunto="assunto" /><br>
+                    Obs: <textarea name="Obs"></textarea>
+                    <button type="submit">Enviar</button>
+                    <button type="submit">Limpar</button>
+                 </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117049.62746928923!2d-46.552345956640664!3d-23.539663900000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce65d601a84363%3A0xd7fca95705d3d926!2sCentro%20Veterin%C3%A1rio%20Paiol%20-%20Guaianases%20(Lajeado)!5e0!3m2!1spt-BR!2sbr!4v1735407203680!5m2!1spt-BR!2sbr" 
+                    width="800" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
